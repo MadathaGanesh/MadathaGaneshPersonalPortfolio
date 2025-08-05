@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Portfolio Design System - Dark Theme with Glassmorphism */
+    --background: 0 0% 6%;  /* #0f0f0f */
+    --foreground: 0 0% 82%; /* #d1d1d1 */
+
+    --card: 0 0% 6%; /* Glass background with transparency applied via bg-white/5 */
+    --card-foreground: 0 0% 100%; /* Pure white for headings */
+
+    --popover: 0 0% 6%;
+    --popover-foreground: 0 0% 82%;
+
+    --primary: 180 100% 50%; /* Neon Blue #00FFFF */
+    --primary-foreground: 0 0% 6%;
+
+    --secondary: 280 100% 53%; /* Neon Purple #A020F0 */
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 17%; /* #2c2c2c for borders */
+    --muted-foreground: 0 0% 82%;
+
+    --accent: 300 100% 50%; /* Neon Pink #FF00FF */
+    --accent-foreground: 0 0% 6%;
+
+    --success: 120 100% 55%; /* Electric Green #39FF14 */
+    --success-foreground: 0 0% 6%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 17%; /* #2c2c2c */
+    --input: 0 0% 17%;
+    --ring: 180 100% 50%;
+
+    --radius: 1rem;
+
+    /* Gradients */
+    --gradient-neon: linear-gradient(135deg, hsl(180 100% 50%), hsl(300 100% 50%));
+    --gradient-glass: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05));
+    
+    /* Glass effect shadows */
+    --shadow-glass: 0 8px 32px rgba(0, 0, 0, 0.12);
+    --shadow-glow: 0 0 20px rgba(0, 255, 255, 0.2);
+
+    /* Sidebar colors */
+    --sidebar-background: 0 0% 6%;
+    --sidebar-foreground: 0 0% 82%;
+    --sidebar-primary: 180 100% 50%;
+    --sidebar-primary-foreground: 0 0% 6%;
+    --sidebar-accent: 0 0% 17%;
+    --sidebar-accent-foreground: 0 0% 82%;
+    --sidebar-border: 0 0% 17%;
+    --sidebar-ring: 180 100% 50%;
+  }
+
+  .dark {
+    /* Using same colors as root since we're dark by default */
+    --background: 0 0% 6%;
+    --foreground: 0 0% 82%;
+    --card: 0 0% 6%;
+    --card-foreground: 0 0% 100%;
+    --popover: 0 0% 6%;
+    --popover-foreground: 0 0% 82%;
+    --primary: 180 100% 50%;
+    --primary-foreground: 0 0% 6%;
+    --secondary: 280 100% 53%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 0 0% 17%;
+    --muted-foreground: 0 0% 82%;
+    --accent: 300 100% 50%;
+    --accent-foreground: 0 0% 6%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 0 0% 17%;
+    --input: 0 0% 17%;
+    --ring: 180 100% 50%;
+    --sidebar-background: 0 0% 6%;
+    --sidebar-foreground: 0 0% 82%;
+    --sidebar-primary: 180 100% 50%;
+    --sidebar-primary-foreground: 0 0% 6%;
+    --sidebar-accent: 0 0% 17%;
+    --sidebar-accent-foreground: 0 0% 82%;
+    --sidebar-border: 0 0% 17%;
+    --sidebar-ring: 180 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-inter antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .font-code {
+    font-family: 'Fira Code', monospace;
+  }
+}
+
+@layer components {
+  /* Glass card component */
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl;
+    box-shadow: var(--shadow-glass);
+  }
+
+  /* Neon button component */
+  .neon-button {
+    @apply relative px-6 py-3 bg-transparent border-2 border-primary rounded-lg font-medium transition-all duration-300;
+    @apply hover:bg-primary hover:text-primary-foreground hover:shadow-[0_0_20px_rgba(0,255,255,0.5)];
+  }
+
+  /* Glow effect */
+  .glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  /* Gradient text */
+  .gradient-text {
+    background: var(--gradient-neon);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-muted rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary;
+  }
+}
