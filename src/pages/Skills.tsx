@@ -68,6 +68,13 @@ const Skills = () => {
       bgColor: 'bg-secondary/10',
       borderColor: 'border-secondary/20',
     },
+     {
+      title: 'Additional Technical Skills',
+      skills: ['Prompt Engineering', 'System Design', 'High Level Design','Low Level Design','API integration','Backend debugging','Technical documentation'],
+      color: 'text-accent',
+      bgColor: 'bg-accent/10',
+      borderColor: 'border-accent/20',
+    },
   ];
 
   const softSkills = [
