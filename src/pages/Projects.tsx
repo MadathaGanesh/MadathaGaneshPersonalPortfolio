@@ -52,7 +52,7 @@ const Projects = () => {
         '50% reduction in manual processing',
         'User-friendly interface',
       ],
-      category: 'Java sBackend Application',
+      category: 'Java Backend Application',
       color: 'text-primary',
       bgColor: 'bg-primary/10',
       githubLink: 'https://github.com/MadathaGanesh/Grocery-Market-Billing-System',

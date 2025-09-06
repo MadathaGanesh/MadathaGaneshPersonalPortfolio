@@ -67,7 +67,6 @@ const Experience = () => {
       'SQL',
       'PL/SQL',
       'UNIX/Linux',
-      'Shell Scripting',
       'WINSCP',
       'PuTTY',
       'Data Migration',
