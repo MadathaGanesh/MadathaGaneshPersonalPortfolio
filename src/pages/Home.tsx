@@ -69,11 +69,7 @@ const Home = () => {
         <motion.div className="mb-6 overflow-hidden">
           <motion.h1
             variants={typewriterVariants}
-<<<<<<< HEAD
             className="text-6xl md:text-8xl font-bold font-outfit text-card-foreground whitespace-nowrap"
-=======
-            className="text-4xl sm:text-5xl md:text-6xlfont-bold font-outfit text-card-foreground whitespace-nowrap"
->>>>>>> d0d3b62 (Added new project)
             style={{ borderRight: '2px solid currentColor' }}
           >
             Madatha Ganesh
