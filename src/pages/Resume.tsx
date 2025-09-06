@@ -28,8 +28,8 @@ const Resume = () => {
   const resumeData = {
     title: 'Professional Resume',
     description: 'Complete professional resume with all experience, skills, and projects',
-    originalViewUrl: 'https://drive.google.com/file/d/1uL-I-f2MHyCCcx4gFd5L4pqjMw7WHkwj/view?usp=drive_link',
-    downloadUrl: 'https://drive.google.com/file/d/1uL-I-f2MHyCCcx4gFd5L4pqjMw7WHkwj/view?usp=drive_link',
+    originalViewUrl: 'https://drive.google.com/file/d/1uL-I-f2MHyCCcx4gFd5L4pqjMw7WHkwj/view?usp=sharing',
+    downloadUrl: 'https://drive.google.com/file/d/1uL-I-f2MHyCCcx4gFd5L4pqjMw7WHkwj/view?usp=sharing',
   };
 
   const quickFacts = [

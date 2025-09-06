@@ -67,11 +67,11 @@ const Home = () => {
 
         {/* Name with Typewriter Effect */}
         <motion.div className="mb-6 overflow-hidden">
-          <motion.h1
-            variants={typewriterVariants}
-            className="text-6xl md:text-8xl font-bold font-outfit text-card-foreground whitespace-nowrap"
-            style={{ borderRight: '2px solid currentColor' }}
-          >
+        <motion.h1
+          variants={typewriterVariants}
+          className="text-5xl sm:text-6xl md:text-8xl font-bold font-outfit text-card-foreground border-r-2 border-current"
+          style={{ borderRightStyle: 'solid' }}
+        >
             Madatha Ganesh
           </motion.h1>
         </motion.div>
@@ -101,7 +101,7 @@ const Home = () => {
         <motion.div variants={itemVariants} className="mb-12">
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://drive.google.com/file/d/1sNo7EtvI-ELaCIxXEipmV2aunr-dytcs/view?usp=sharing"
+              href="https://drive.google.com/file/d/1uL-I-f2MHyCCcx4gFd5L4pqjMw7WHkwj/view?usp=sharing"
               download
               className="neon-button flex items-center space-x-2"
             >
