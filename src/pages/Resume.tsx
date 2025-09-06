@@ -28,12 +28,21 @@ const Resume = () => {
   const resumeData = {
     title: 'Professional Resume',
     description: 'Complete professional resume with all experience, skills, and projects',
+<<<<<<< HEAD
     originalViewUrl: 'https://drive.google.com/file/d/1sNo7EtvI-ELaCIxXEipmV2aunr-dytcs/view?usp=drive_link',
     downloadUrl: 'https://drive.google.com/uc?export=download&id=1sNo7EtvI-ELaCIxXEipmV2aunr-dytcs',
   };
 
   const quickFacts = [
     { label: 'Experience', value: '10 Months' },
+=======
+    originalViewUrl: 'https://drive.google.com/file/d/1uL-I-f2MHyCCcx4gFd5L4pqjMw7WHkwj/view?usp=drive_link',
+    downloadUrl: 'https://drive.google.com/file/d/1uL-I-f2MHyCCcx4gFd5L4pqjMw7WHkwj/view?usp=drive_link',
+  };
+
+  const quickFacts = [
+    { label: 'Experience', value: '1 year' },
+>>>>>>> d0d3b62 (Added new project)
     { label: 'Current Role', value: 'Oracle EBS Consultant' },
     { label: 'Specialization', value: 'Java Backend Developer' },
     { label: 'Location', value: 'India' },
