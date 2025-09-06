@@ -28,22 +28,14 @@ const Skills = () => {
   const skillCategories = [
     {
       title: 'Programming Languages',
-<<<<<<< HEAD
       skills: ['Java', 'Python', 'SQL', 'PL/SQL', 'JavaScript'],
-=======
-      skills: ['Java', 'Python', 'SQL', 'PL/SQL', 'JavaScript','Object-Oriented Programming'],
->>>>>>> d0d3b62 (Added new project)
       color: 'text-primary',
       bgColor: 'bg-primary/10',
       borderColor: 'border-primary/20',
     },
     {
       title: 'Backend Frameworks',
-<<<<<<< HEAD
       skills: ['Spring Boot', 'Hibernate', 'RESTful APIs','Spring MVC','Sping Framework','JUnit', 'Maven'],
-=======
-      skills: ['Spring Boot', 'Hibernate', 'RESTful APIs','Spring MVC','Sping Framework','JUnit', 'Maven','Swagger','Spring Data JPA','Spring security','Microservices'],
->>>>>>> d0d3b62 (Added new project)
       color: 'text-secondary',
       bgColor: 'bg-secondary/10',
       borderColor: 'border-secondary/20',
@@ -76,16 +68,6 @@ const Skills = () => {
       bgColor: 'bg-secondary/10',
       borderColor: 'border-secondary/20',
     },
-<<<<<<< HEAD
-=======
-     {
-      title: 'Technical Expertise & Engineering Skills',
-      skills: ['Prompt Engineering','Data Structures and Algorithms','System Design','High Level Design','API Testing','API integration','Backend debugging','Technical documentation'],
-      color: 'text-accent',
-      bgColor: 'bg-accent/10',
-      borderColor: 'border-accent/20',
-    },
->>>>>>> d0d3b62 (Added new project)
   ];
 
   const softSkills = [
