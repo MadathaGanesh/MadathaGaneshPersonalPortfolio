@@ -27,6 +27,21 @@ const Projects = () => {
   };
 
   const projects = [
+     {
+      title: 'Auto Dealer Management System',
+      description: 'Developed a secure, scalable Java Spring Boot backend platform managing 1,000+ dealers and 10,000+ vehicles, reducing reconciliation errors by 30%, ensuring sub-200ms response times, and enabling seamless real-time updates with comprehensive API documentation.',
+      technologies: ['Spring Boot', 'Spring MVC', 'RESTful APIs', 'Spring Data JPA','PostgreSQL', 'Swagger', 'Maven', 'Spring Security'],
+      highlights: [
+        'Built a secure backend with Java, Spring Boot, and JWT for managing vehicle inventories, dealers, and subscriptions via REST APIs',
+        'Real-time inventory trackingEnabled asynchronous payment processing with data validation, cutting reconciliation errors by 30% and supporting real-time updates for 1,000+ dealers and 10,000+ vehicles',
+        '50% reduction in manual Created a scalable PostgreSQL and JPA data model ensuring fast CRUD operations under 200ms',
+        'Improved developer onboarding by 40% using integrated Swagger API documentation.',
+      ],
+      category: 'Java Backend Application',
+      color: 'text-accent',
+      bgColor: 'bg-accent/10',
+      githubLink: 'https://github.com/MadathaGanesh/AutoDealer-Management-System',
+    },
     {
       title: 'Grocery Market Billing System',
       description: 'A comprehensive billing automation system with real-time tracking capabilities, reducing manual processing time by 50%.',
@@ -37,7 +52,7 @@ const Projects = () => {
         '50% reduction in manual processing',
         'User-friendly interface',
       ],
-      category: 'Backend Application',
+      category: 'Java sBackend Application',
       color: 'text-primary',
       bgColor: 'bg-primary/10',
       githubLink: 'https://github.com/MadathaGanesh/Grocery-Market-Billing-System',
