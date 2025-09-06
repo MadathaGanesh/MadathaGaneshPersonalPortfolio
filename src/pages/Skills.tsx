@@ -35,7 +35,7 @@ const Skills = () => {
     },
     {
       title: 'Backend Frameworks',
-      skills: ['Spring Boot', 'Hibernate', 'RESTful APIs','Spring MVC','Sping Framework','JUnit', 'Maven'],
+      skills: ['Spring Boot', 'Hibernate', 'RESTful APIs','Spring MVC','Sping Framework','JUnit', 'Maven','Java Persistence API'],
       color: 'text-secondary',
       bgColor: 'bg-secondary/10',
       borderColor: 'border-secondary/20',
@@ -49,7 +49,7 @@ const Skills = () => {
     },
     {
       title: 'Development Tools',
-      skills: ['Git', 'GitHub', 'Postman', 'Eclipse', 'IntelliJ IDEA', 'VS Code'],
+      skills: ['Git', 'GitHub', 'Postman', 'Eclipse', 'IntelliJ IDEA', 'VS Code','Swagger'],
       color: 'text-success',
       bgColor: 'bg-success/10',
       borderColor: 'border-success/20',
