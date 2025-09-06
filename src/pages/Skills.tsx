@@ -28,7 +28,7 @@ const Skills = () => {
   const skillCategories = [
     {
       title: 'Programming Languages',
-      skills: ['Java', 'Python', 'SQL', 'PL/SQL', 'JavaScript'],
+      skills: ['Java', 'Python', 'SQL', 'PL/SQL', 'JavaScript','Object-Oriented Programming'],
       color: 'text-primary',
       bgColor: 'bg-primary/10',
       borderColor: 'border-primary/20',
